@@ -4,9 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Jaime Yefi's Portfolio</title>
+    <meta name="author" content="Jaime Yefi Verdugo" />
+    <meta name="description" content="Jaime Yefi's Portfolio, Fullstack Developer, devops, data engineer.">
+    <meta name="keywords" content="seo, fullstack developer, devops, data engineer">
+  
+    <title>Jaime Yefi - Fullstack Developer - Data Engineer - IT Researcher</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
@@ -18,12 +20,9 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.4/tailwind.min.css" rel="stylesheet" />
-    
-    
-
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="activateSlider()">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
@@ -41,6 +40,8 @@
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#about">About</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#companies">Companies</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -50,7 +51,7 @@
     <header class="masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image-->
-            <img class="masthead-avatar mb-5" src="assets/img/linkedin_7.png" alt="..." />
+            <img class="masthead-avatar mb-5" src="assets/img/linkedin_7.png" alt="Jaime Yefi" />
             <!-- Masthead Heading-->
             <h1 class="masthead-heading text-uppercase mb-0">Jaime Yefi's Portfolio</h1>
             <!-- Icon Divider-->
@@ -60,14 +61,14 @@
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">DevOps - Fullstack Developer - Data Architect</p>
+            <p class="masthead-subheading font-weight-light mb-0">DevOps - Fullstack Developer - Data engeenering</p>
         </div>
     </header>
     <!-- Portfolio Section-->
     <section class="page-section portfolio" id="portfolio">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Lastest Projects</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -84,7 +85,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/code.jpg" alt="..." />
+                        <img class="img-fluid" src="assets/img/portfolio/docker.png" alt="Docker based Project" />
                     </div>
                 </div>
                 <!-- Portfolio Item 2-->
@@ -95,7 +96,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                        <img class="img-fluid" src="assets/img/portfolio/geolocalizacion.jpg" alt="Python Flask developed project" />
                     </div>
                 </div>
                 <!-- Portfolio Item 3-->
@@ -106,7 +107,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                        <img class="img-fluid" src="assets/img/portfolio/code_js.jpg" alt="Python / Linux Bash (Bullseye) Project" />
                     </div>
                 </div>
                 <!-- Portfolio Item 4-->
@@ -117,7 +118,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                        <img class="img-fluid" src="assets/img/portfolio/expo.jpg" alt="React Native (expo) Project" />
                     </div>
                 </div>
                 <!-- Portfolio Item 5-->
@@ -128,7 +129,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+                        <img class="img-fluid" src="assets/img/portfolio/restapi.png" alt="..." />
                     </div>
                 </div>
                 <!-- Portfolio Item 6-->
@@ -139,7 +140,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                        <img class="img-fluid" src="assets/img/portfolio/data.png" alt="..." />
                     </div>
                 </div>
             </div>
@@ -160,7 +161,8 @@
             <div class="row">
                 <div class="col-lg-4 ms-auto">
                     <p class="lead">I am a passionate about technology, who always seeks to be up to date with advances
-                        in computer science.</p>
+                        in computer science. Detail-oriented, always looking for new solutions and the best user
+                        experience.</p>
                 </div>
                 <div class="col-lg-4 me-auto">
                     <p class="lead">With a degree in computer engeenering and a master in Web Technologies, I have
@@ -170,9 +172,36 @@
             <!-- About Section Button-->
             <div class="text-center">
                 <a class="btn btn-xl btn-sucess" style="background-color: #0A66C2; color: white; display: inline-flex;"
-                    href="https://www.linkedin.com/in/jaimeyefi"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<span class="mt-1"> See my LinkedIn Profile</span>
+                    href="https://www.linkedin.com/in/jaimeyefi"><i class="fab fa-linkedin fa-2x"
+                        aria-hidden="true"></i>&nbsp;&nbsp;<span class="mt-1"> See my LinkedIn Bio</span>
                 </a>
             </div>
+        </div>
+    </section>
+
+    <!-- Companies Section-->
+    <section class="page-section" id="companies" style="max-height: 400px;">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Companies</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <div class="text-center text-gray-500 text-3xl">
+            Some of the companies that have trusted me
+            </div>
+            <ul class="slider">
+                <li><a href="http://www.uv.es" target="_blank"><img src="assets/img/companies/UV.png" alt="ETSE UV" /></a></li>
+                <li><a href="http://www.planvital.cl" target="_blank"><img src="assets/img/companies/Planvital-Generali.jpeg" alt="" /></a></li>
+                <li><a href="http://www.laborum.cl" target="_blank"><img src="assets/img/companies/Laborum.png" alt="" /></a></li>
+                <li><img src="assets/img/companies/Citibank.png" alt="" /></li>
+                <li><a href="http://www.cuprum.cl" target="_blank"><img src="assets/img/companies/Cuprum.png" alt="AFP Cuprum, una compañía Principal Finantial Group" /></a></li>
+                <li><a href="http://www.pentavida.cl" target="_blank"><img src="assets/img/companies/Penta-vida.png" alt="PentaVida, Seguros de Vida y Ahorro" /></a></li>
+                <li><a href="http://www.exynko.cl" target="_blank"><img src="assets/img/companies/Exynko.png" alt="www.exynko.cl" /></a></li>
+            </ul>
         </div>
     </section>
     <!-- Contact Section-->
@@ -187,51 +216,62 @@
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Contact Section Form-->
-            <div class="flex items-center min-h-screen bg-gray-900">
+            <div class="flex items-center bg-gray-900">
                 <div class="container mx-auto">
-                  <div class="max-w-md mx-auto my-10 bg-gray-800 p-5 rounded-md shadow-sm">
-                    <div class="text-center">
-                      <h1 class="my-3 text-3xl font-semibold text-gray-100">
-                        Leave a message
-                      </h1>
-                      <p class="text-gray-400 dark:text-gray-400">
-                        Fill up the form below to send me a message.
-                      </p>
+                    <div class="max-w-md mx-auto my-10 bg-gray-800 p-5 rounded-md shadow-sm">
+                        <div class="text-center">
+                            <h2 class="my-3 text-3xl font-semibold text-gray-100">
+                                Leave a message<br>
+                                <span class="text-center text-gray-500">Contacto</span>
+                            </h2>
+                            <p class="text-gray-100 dark:text-gray-100">
+                                Fill up the form below to send me a message.
+                                <span class="text-center text-gray-500">Llena el formulario y te responderé a la brevedad</span>
+                                
+                            </p>
+                        </div>
+                        <div class="m-7">
+                            <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                                <input type="hidden" name="access_key" value="86c999fe-c52e-4663-a709-2edde25352d3" />
+                                <input type="hidden" name="subject" value="New Message from github pages" />
+                                <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+                                <div class="mb-6">
+                                    <label for="name" class="block mb-2 text-sm text-gray-400">Name / <span class="text-center text-gray-500">Nombre</span></label>
+                                    <input type="text" name="name" id="name" placeholder="John Doe" required
+                                        class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none" />
+                                </div>
+                                <div class="mb-6">
+                                    <label for="email" class="block mb-2 text-sm text-gray-400">
+                                        Email Address / <span class="text-center text-gray-500">Correo electrónico</span></label>
+                                    <input type="email" name="email" id="email" placeholder="you@company.com" required
+                                        class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none" />
+                                </div>
+                                <div class="mb-6">
+                                    <label for="phone" class="block mb-2 text-sm text-gray-400">Phone Number / <span class="text-center text-gray-500">Número de Teléfono</span> </label>
+                                    <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none" />
+                                </div>
+                                <div class="mb-6">
+                                    <label for="message" class="block mb-2 text-sm text-gray-400">Message /
+                                        <span class="text-center text-gray-500">Mensaje</span>
+                                    </label>
+
+                                    <textarea rows="5" name="message" id="message" placeholder="Your Message"
+                                        class="w-full px-3 py-2 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none"
+                                        required></textarea>
+                                </div>
+                                <div class="mb-6">
+                                    <button type="submit"
+                                        class="w-full inline-block text-white no-underline hover:text-indigo-100 py-4 px-4 rounded-sm focus:outline-none" style="background-color: #0A66C2">
+                                        <strong>Send Now</strong> / Enviar
+                                    </button>
+                                </div>
+                                <p class="text-base text-center text-gray-400" id="result"></p>
+                            </form>
+                        </div>
                     </div>
-                    <div class="m-7">
-                      <form action="https://api.web3forms.com/submit" method="POST" id="form">
-                        <input type="hidden" name="access_key" value="86c999fe-c52e-4663-a709-2edde25352d3" />
-                        <input type="hidden" name="subject" value="New Message from github pages" />
-                        <input type="checkbox" name="botcheck" id="" style="display: none;" />
-              
-                        <div class="mb-6">
-                          <label for="name" class="block mb-2 text-sm text-gray-400">Name</label>
-                          <input type="text" name="name" id="name" placeholder="John Doe" required class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none" />
-                        </div>
-                        <div class="mb-6">
-                          <label for="email" class="block mb-2 text-sm text-gray-400">Email Address</label>
-                          <input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none" />
-                        </div>
-                        <div class="mb-6">
-                          <label for="phone" class="block mb-2 text-sm text-gray-400">Phone Number</label>
-                          <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none" />
-                        </div>
-                        <div class="mb-6">
-                          <label for="message" class="block mb-2 text-sm text-gray-400">Your Message</label>
-              
-                          <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none" required></textarea>
-                        </div>
-                        <div class="mb-6">
-                          <button type="submit" class="w-full bg-indigo-600 inline-block text-white no-underline hover:text-indigo-100 py-4 px-4 rounded-sm focus:outline-none">
-                            Send Message
-                          </button>
-                        </div>
-                        <p class="text-base text-center text-gray-400" id="result"></p>
-                      </form>
-                    </div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </div>
     </section>
     <!-- Footer-->
@@ -242,7 +282,9 @@
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Location</h4>
                     <p class="lead mb-0">
-                        Valencia, ES 46035
+                        46035<br>
+                        Valencia<br>
+                        Spain
                     </p>
                 </div>
                 <!-- Footer Social Icons-->
@@ -258,10 +300,13 @@
                 <div class="col-lg-4">
                     <h4 class="text-uppercase mb-4">About this Theme</h4>
                     <p class="lead mb-0">
-                        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                        <span class="text-sm">Do you want to use this theme?</span>
+                        <a class="btn btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
                             <i class="fas fa-download me-2"></i>
-                            Get for free
+                            Get it for free
                         </a>
+                        <br>
+                        <span class="text-sm">by Start Bootstrap</span>
                     </p>
                 </div>
             </div>
@@ -292,12 +337,34 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/code.jpg" alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/thesis.jpeg" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                <p class="mb-4 text-left">
+                                    The project used for my master's thesis consists of the implementation of a system distributed in different components, among which are:
+                                    <ul class="text-left">
+                                        <li style="list-style-type: disc;">A relational data persistence layer built on top of PostgreSQL</li>
+                                        <li style="list-style-type: disc;">
+                                            A non-relational data layer implemented in MongoDB
+                                        </li>
+                                        <li style="list-style-type: disc;">
+                                            A relational data access layer (Python / Django)
+                                        </li>
+                                        <li style="list-style-type: disc;">
+                                            A non-relational data access layer (Java / Spring Boot)
+                                        </li>
+                                        <li style="list-style-type: disc;">
+                                            A data access gateway (Python / Django)
+                                        </li>
+                                        <li style="list-style-type: disc;">
+                                            A presentation layer to be developed with React Native (expo)      
+                                        </li>
+                                    </ul>
                                 </p>
+                                <br>
+                                <div class="text-left">All of the above orchestrated with docker-compose, and implementated with secure requests (JWT)</div>
+                                <br>
+                                <div class="text-left">* <i>Work in process</i></div>
+                                <br>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
@@ -321,7 +388,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Signal meter with Geolocation</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -329,14 +396,12 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/geolocalizacion.jpg" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                <p class="mb-4">System developed in Python / Flask, for Raspberry Pi (IoT) devices. The system communicates, through AT commands, the signal query to the SIM7600E chip, and in this way captures the signals and stores them in JSON data structures. Finally, the Google Maps API was used to render the signs and their geolocation.
                                 </p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
+                                    <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
                             </div>
@@ -358,7 +423,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">File synchronization system over 4G networks</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -366,14 +431,13 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/code-python.jpg" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                <p class="mb-4">
+                                    This component is part of the development carried out for the SENSOPLAG project, which was sponsored by the European regional development fund. The developed component allows automating the tasks of collection, transmission and verification of files transmitted through the rsync protocol. Finally, the synchronized files were transmitted over the Internet through the use of the SIM7600E chip.
                                 </p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
+                                    <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
                             </div>
@@ -395,7 +459,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Valenbisi App</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -403,14 +467,25 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/expo.jpg" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                <p class="text-left mb-4">This App was developed with Expo framework and we implemented the following requirements
+                                <ul class="text-left">
+                                    <li style="list-style-type: disc;">Access control (login)</li>
+                                    <li style="list-style-type: disc;">Public data consumption (Rest API)</li>
+                                    <li style="list-style-type: disc;">Search for stops by name/address</li>
+                                    <li style="list-style-type: disc;">Search for stops by geolocation</li>
+                                    <li style="list-style-type: disc;">Detail of bicycles / parking spaces available</li>
+                                    <li style="list-style-type: disc;">QR code reading</li>
+                                </ul>
                                 </p>
+                                <br>
+                                <div>
+                                    Successfully tested on iOS and Android Devices. 
+                                </div>
+                                <br>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
+                                    <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
                             </div>
@@ -432,7 +507,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Automated Notification System</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -440,14 +515,25 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/restapi.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                <p class="mb-4">
+                                    This project was designed to improve the experience with customers, using email marketing and operational messages sent by email channel.
                                 </p>
+                                <ul class="text-left">
+                                    Some of the big numbers:
+                                    <li style="list-style-type: disc;">We sent more than 200M messages by the platform </li>
+                                    <li style="list-style-type: disc;">We implement more than 100 of automatic deliver processes (Birthday, payments, etc.)</li>
+                                    <li style="list-style-type: disc;">We got more than 90% of clean email data </li>
+                                    <li style="list-style-type: disc;">We had a very slow rates of bounced emails </li>
+                                </ul>
+                                <br>
+                                <div>
+                                    All od these, was made using Talend integration processes, and Apache Airflow, with PostgreSQL Databases and a email service provided by API REST integration.
+                                </div>
+                                <br>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
+                                    <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
                             </div>
@@ -469,7 +555,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Customer Datamart</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -477,15 +563,14 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png"
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/data.png"
                                     alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                <p class="mb-4">
+                                    We carry out all the integrations for the integration of Customer Datamart. For that work we developed more than 1K of ETL based on Pentaho Data Integration. We use MySQL databases for combined data, Oracle database sources, and put the data into SQL Server Analysys Server. Finally, we developed visualizations for customer segmentation (Tableau / Qlik Sense), which were reused in the automated communication project.
                                 </p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
+                                    <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
                             </div>
@@ -499,52 +584,60 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="js/infiniteslidev2.js"></script>
     <script>
         const form = document.getElementById("form");
-const result = document.getElementById("result");
+        const result = document.getElementById("result");
 
-form.addEventListener("submit", function (e) {
-  const formData = new FormData(form);
-  e.preventDefault();
-  var object = {};
-  formData.forEach((value, key) => {
-    object[key] = value;
-  });
-  var json = JSON.stringify(object);
-  result.innerHTML = "Please wait...";
+        form.addEventListener("submit", function (e) {
+            const formData = new FormData(form);
+            e.preventDefault();
+            var object = {};
+            formData.forEach((value, key) => {
+                object[key] = value;
+            });
+            var json = JSON.stringify(object);
+            result.innerHTML = "Please wait...";
 
-  fetch("https://api.web3forms.com/submit", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json"
-    },
-    body: json
-  })
-    .then(async (response) => {
-      let json = await response.json();
-      if (response.status == 200) {
-        result.innerHTML = json.message;
-        result.classList.remove("text-gray-500");
-        result.classList.add("text-green-500");
-      } else {
-        console.log(response);
-        result.innerHTML = json.message;
-        result.classList.remove("text-gray-500");
-        result.classList.add("text-red-500");
-      }
-    })
-    .catch((error) => {
-      console.log(error);
-      result.innerHTML = "Something went wrong!";
-    })
-    .then(function () {
-      form.reset();
-      setTimeout(() => {
-        result.style.display = "none";
-      }, 5000);
-    });
-});
+            fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    Accept: "application/json"
+                },
+                body: json
+            })
+                .then(async (response) => {
+                    let json = await response.json();
+                    if (response.status == 200) {
+                        result.innerHTML = json.message;
+                        result.classList.remove("text-gray-500");
+                        result.classList.add("text-green-500");
+                    } else {
+                        console.log(response);
+                        result.innerHTML = json.message;
+                        result.classList.remove("text-gray-500");
+                        result.classList.add("text-red-500");
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                    result.innerHTML = "Something went wrong!";
+                })
+                .then(function () {
+                    form.reset();
+                    setTimeout(() => {
+                        result.style.display = "none";
+                    }, 5000);
+                });
+        });
+
+    function activateSlider(){
+        $('.slider').infiniteslide({
+            'speed': 100
+        });
+    }
 
     </script>
 </body>
